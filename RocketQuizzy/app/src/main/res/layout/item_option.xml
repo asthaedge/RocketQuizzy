@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_sky"
+    android:layout_marginBottom="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/cardView"
+        android:layout_marginTop="15dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginEnd="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/muli"
+                android:text="A."
+                android:id="@+id/option_serial_no"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/muli"
+                android:text="Narendra Modi"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:id="@+id/tv_option"
+                android:visibility="gone" />
+
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   app:cardElevation="0dp"
+                   app:cardCornerRadius="20dp"
+                   android:visibility="gone"
+                   android:id="@+id/image_layout"
+                   android:layout_margin="10dp">
+                   <ImageView
+                       android:id="@+id/iv_option"
+                       android:layout_width="match_parent"
+                       android:layout_height="160dp"
+                       android:visibility="gone"
+                       android:scaleType="centerCrop" />
+               </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_audio"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:id="@+id/option_audio_play_btn"
+                    android:src="@drawable/ic_baseline_play_circle_filled_24"
+                    android:background="@drawable/play_btn_bg"
+                    app:tint="@color/themeColor" />
+
+                <com.gauravk.audiovisualizer.visualizer.WaveVisualizer
+                    android:id="@+id/wave_visualizer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:avColor="@color/themeColor"
+                    app:avDensity="0.8"
+                    app:avSpeed="normal"
+                    app:avType="fill" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

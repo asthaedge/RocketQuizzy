@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_sky"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/level_LL"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/level_design_1"
+        android:transitionName="level_bg"
+        android:orientation="vertical">
+
+
+
+           <com.airbnb.lottie.LottieAnimationView
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:background="@drawable/level_btn_bg"
+               android:layout_marginStart="25dp"
+               android:id="@+id/play_btn"
+               app:lottie_fileName="play.json"
+               android:layout_marginEnd="25dp"
+               android:layout_marginBottom="20dp"
+               android:layout_marginTop="20dp"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/level_btn_bg"
+            android:layout_marginStart="25dp"
+            android:id="@+id/image_btn"
+            app:tint="@color/white"
+            android:layout_marginEnd="25dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_play_arrow_24"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_level"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:transitionName="iv_level" />
+
+</RelativeLayout>

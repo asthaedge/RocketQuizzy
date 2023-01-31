@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable-v24/ic_baseline_home_24.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/backlightcorner.xml" value="0.24351851851851852" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/button_2_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/button_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/corner_trans_black.xml" value="0.2361111111111111" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/cornerthemebackground.xml" value="0.24351851851851852" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/design1.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/end_btn_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/ic_balloon_4959462.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.22870370370370371" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/ic_user.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/image_btn_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/level_btn.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/level_btn_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/level_design_2.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/level_design_3.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/level_design_4.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/level_design_5.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/plat_btn_bg.xml" value="0.21574074074074073" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/play_btn_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/pressed_level_btn.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/question_bg.xml" value="0.22870370370370371" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/quiz_bottom_bar_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/right_answer_bg.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/selected_option_bg.xml" value="0.2222222222222222" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/theme_bg.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/theme_bg_down_corner.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/drawable/wrong_answer_bg.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_full_image.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_login.xml" value="0.26461538461538464" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_otpverify.xml" value="0.26461538461538464" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_quiz_info.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_score.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_set_user_info.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/content_quiz_info.xml" value="0.14166666666666666" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/content_score.xml" value="0.14166666666666666" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/custom_loading_bar.xml" value="0.18333333333333332" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/custom_progress_dialog.xml" value="0.2074074074074074" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/fragment_first.xml" value="0.1935185185185185" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/fragment_home.xml" value="0.2462962962962963" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/fragment_profile.xml" value="0.2462962962962963" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/item_badge.xml" value="0.2462962962962963" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/item_level.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/layout/item_option.xml" value="0.21574074074074073" />
+        <entry key="..\:/Android Studio/RocketQuizzy/app/src/main/res/menu/main_menu.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/backlightcorner.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/blank_recycler_ui.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/button_2_bg.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/button_bg.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ccp_background.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/dark_corner.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/down_stroke.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/edt_text_bg.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/error_bg.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/heart.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/home.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_account_24_dark.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_account_circle_24_dark.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_account_circle_24_light.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_heart.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_heart_filled.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_home.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_home__filled.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_menu.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_play.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_play_filled.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_search.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_settings.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_settings_filled.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_user.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/ic_user_filled.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/image_btn_bg.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/level_btn_bg.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/level_design_1.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/menu_background.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/phone_no_edt_bg.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/play.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/question_bg.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/search_bar_bg.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/selected_option_bg.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/settings.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/theme_bg_down_corner.xml" value="0.18" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/theme_bg_down_corner_dark.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/theme_btn_selected_bg.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/transparent_corner.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/user.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/white_corner.xml" value="0.171" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/drawable/white_stroke.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_login.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_main.xml" value="0.17" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_otpverify.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_profile.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_quiz.xml" value="0.17" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_quiz_info.xml" value="0.15" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_set_user_info.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/activity_splash_screen.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout-land/fragment_profile.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_add_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_all_categories.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_badge.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_custom_quiz_info.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_full_image.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_otpverify.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_quiz_info.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_quiz_list.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_score.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_set_user_info.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/category_item.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/custom_dialog.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/custom_loading_bar.xml" value="0.26875" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/custom_progress_dialog.xml" value="0.26875" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/dialog_add_question.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_fav.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_magic_play.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_on_boarding_1.xml" value="0.21" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_on_boarding_2.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_on_boarding_3.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_profile.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_settings.xml" value="0.22" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/fragment_sign_in.xml" value="0.2" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/item_add_option.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/item_add_question.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/item_badge.xml" value="0.26875" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/item_fav.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/item_level.xml" value="0.26875" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/item_option.xml" value="0.26875" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/item_slider.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/menu_header.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/quiz_item.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/layout/top_item.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/menu/main_menu.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/menu/side_menu.xml" value="0.25" />
+        <entry key="..\:/Users/sahil/AndroidStudioProjects/RocketQuizzy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/sahil/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/button_2_bg.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/button_bg_chan.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_1.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/drawable/level_design_1_nc.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_2.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_2_nc.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_3.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_3_nc.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_4.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_4_nc.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_5.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/level_design_5_nc.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/right_answer_bg.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/round_rose.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/drawable/score_card_bg.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/drawable/selected_option_bg.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/transparent_corner.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/drawable/white_corner.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/drawable/wrong_answer_bg.xml" value="0.2828125" />
+        <entry key="app/src/main/res/layout/activity_badge.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_score.xml" value="0.2703125" />
+        <entry key="app/src/main/res/layout/activity_set_user_info.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_option.xml" value="0.26666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

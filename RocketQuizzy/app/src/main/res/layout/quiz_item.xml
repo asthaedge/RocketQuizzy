@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_sky"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="15dp"
+        android:id="@+id/cardView"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/ivThumbnailLayout"
+                android:layout_centerVertical="true"
+                app:cardElevation="0dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:lottie_fileName="loading.json"
+                        android:layout_centerInParent="true"
+                        app:lottie_loop="true"
+                        android:id="@+id/loading_view"
+                        app:lottie_autoPlay="true"/>
+
+                    <ImageView
+                        android:id="@+id/ivThumbnail"
+                        android:layout_width="match_parent"
+                        android:transitionName="thumbnail"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/ivThumbnailLayout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="70dp"
+                    android:fontFamily="@font/abril_fatface"
+                    android:maxLines="1"
+                    android:textColor="@color/themeColor"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/muli"
+                    android:maxLines="3"
+                    android:textSize="15sp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/play_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/level_btn_bg"
+                    app:lottie_colorFilter="@color/green"
+                    app:lottie_fileName="play.json" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

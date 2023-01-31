@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1000440326762",
+    "firebase_url": "https://rocket-quizzy-default-rtdb.firebaseio.com",
+    "project_id": "rocket-quizzy",
+    "storage_bucket": "rocket-quizzy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000440326762:android:c5dc52a236b33765303813",
+        "android_client_info": {
+          "package_name": "com.rocket.quizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000440326762-0u7kdc71gjjic9a5utkjji2ou4nv67ae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rocket.quizzy",
+            "certificate_hash": "ba5373c6776867997c13310987327659425770de"
+          }
+        },
+        {
+          "client_id": "1000440326762-mjotu36rchp74rta87m7hmq87kb4pl9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVwOxOPHHDYjL7Bf1sFOlKQ9lCu3saSRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000440326762-mjotu36rchp74rta87m7hmq87kb4pl9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

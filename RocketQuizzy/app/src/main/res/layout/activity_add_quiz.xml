@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkColor"
+    android:id="@+id/content_view"
+    tools:context=".view.AddQuizActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@drawable/theme_bg_down_corner_dark">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/back_btn"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                        app:tint="@color/themeColor" />
+
+                    <ImageView
+                        android:id="@+id/iv_r"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/back_btn"
+                        android:src="@drawable/ic_baseline_add_24"
+                        app:tint="@color/themeColor" />
+
+                    <TextView
+                        android:id="@+id/tv_toolbar_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@id/iv_r"
+                        android:fontFamily="@font/muli"
+                        android:text="@string/add_new_quiz"
+                        android:textColor="@color/themeColor" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/part_1_info"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submit_new_quiz_to_this_app"
+                    android:fontFamily="@font/muli"
+                    android:padding="20dp"
+                    android:id="@+id/tv_title"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="20dp"
+                    android:id="@+id/edtv_quiz_title_layout"
+                    app:cardCornerRadius="30dp"
+                    app:cardBackgroundColor="@color/darkLight"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edtv_quiz_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@null"
+                            android:drawableStart="@drawable/ic_title"
+                            android:drawablePadding="15dp"
+                            android:drawableTint="@color/themeColor"
+                            android:fontFamily="@font/muli"
+                            android:hint="@string/quiz_title"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:maxLength="30"
+                            android:padding="10dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="16sp"
+                            android:transitionName="edtv_input" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/edtv_quiz_desc_layout"
+                    android:layout_marginEnd="20dp"
+                    app:cardBackgroundColor="@color/darkLight"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edtv_quiz_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="144dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:gravity="top|start"
+                            android:paddingTop="15dp"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="20dp"
+                            android:inputType="textMultiLine"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:layout_marginBottom="20dp"
+                            android:background="@null"
+                            android:drawableTint="@color/themeColor"
+                            android:fontFamily="@font/muli"
+                            android:hint="@string/quiz_description_hint"
+                            android:maxLength="500"
+                            android:textSize="16sp"
+                            android:transitionName="edtv_input" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0/500"
+                    android:fontFamily="@font/muli"
+                    android:textColor="@color/white"
+                    android:layout_gravity="end"
+                    android:id="@+id/desc_char_count"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginTop="3dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/iv_thumbnail_layout"
+                    app:cardBackgroundColor="@color/darkLight"
+                    app:cardElevation="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/layout_banner">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/demo"
+                            android:id="@+id/iv_banner"
+                            android:visibility="gone"
+                            android:scaleType="centerCrop"/>
+
+                        <TextView
+                            android:id="@+id/upload_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:drawableStart="@drawable/ic_add"
+                            android:drawablePadding="5dp"
+                            android:drawableTint="@color/white"
+                            android:fontFamily="@font/muli"
+                            android:text="@string/upload_banner_for_the_quiz"
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/next_btn"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/next"
+                    android:fontFamily="@font/muli"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/part_2_info"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg"
+                    android:text="@string/add_question"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/muli"
+                    android:id="@+id/add_question_btn"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="30dp"
+                    android:drawableStart="@drawable/ic_baseline_add_24"
+                    android:drawableTint="@color/white"
+                    android:drawablePadding="5dp"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="end"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/your_added_questions"
+                    android:fontFamily="@font/muli"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_title_2"
+                    android:textSize="17sp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_marginBottom="20dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/recycler_questions"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_added_any_questions_yet"
+                    android:background="@drawable/blank_recycler_ui"
+                    android:fontFamily="@font/muli"
+                    android:textColor="@color/themeColor"
+                    android:padding="30dp"
+                    android:visibility="gone"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:id="@+id/blank_recycler_tv"/>
+
+
+
+                <com.chinalwb.slidetoconfirmlib.SlideToConfirm
+                    android:id="@+id/slide_to_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="20dp"
+                    app:border_radius="30dp"
+                    app:border_width="0dp"
+                    app:slider_background_color="@color/lightThemeColor"
+                    app:slider_color="@color/themeColor"
+                    app:slider_lottie="lottie_x.json"
+                    app:slider_image="@drawable/ic_baseline_send_24"
+                    app:slider_width="100dp"
+                    app:slider_reset_duration="1000"
+                    app:slider_vibration_duration="50"
+                    app:slider_threshold="1dp"
+                    app:engage_text="@string/slide_to_confirm"
+                    app:engage_text_size="17sp"
+                    app:engage_text_color="@android:color/white"
+                    app:engaged_text_font="@font/muli"
+                    app:completed_text="@string/processing"
+                    app:completed_text_color="@android:color/white"
+                    app:completed_text_size="30sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</layout>

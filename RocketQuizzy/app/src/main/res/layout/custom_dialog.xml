@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_layout"
+    android:background="@drawable/white_corner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_semibold"
+            android:id="@+id/tv_dialog_title"
+            android:text="Dialog Title ?"
+            android:padding="15dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog Description"
+            android:fontFamily="@font/muli"
+            android:id="@+id/desc"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:padding="15dp"
+                android:id="@+id/cancel_btn"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/muli"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:text="@string/yes"
+                android:id="@+id/yes_btn"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

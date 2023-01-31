@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_view"
+    android:background="@color/darkColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.FavFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            android:id="@+id/app_bar_layout">
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:id="@+id/app_bar"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/transparent"
+                app:layout_constraintTop_toTopOf="parent">
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/toolbar"
+                    android:background="@drawable/theme_bg_down_corner_light">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/iv_r"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/ic_heart"
+                            app:tint="@color/themeColor" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:id="@+id/tv_toolbar_title"
+                            android:layout_toEndOf="@id/iv_r"
+                            android:fontFamily="@font/muli"
+                            android:text="@string/your_favourites"
+                            android:textColor="@color/themeColor" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.appbar.MaterialToolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_bar_layout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:visibility="gone"
+                    android:id="@+id/favRecycler"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:id="@+id/empty_layout">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:lottie_fileName="empty.json"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/archivo_black"
+                android:text="@string/no_favourites"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/themeColor"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
+</layout>
